@@ -1,0 +1,3 @@
+[submodule "wintersmith-jade"]
+	path = wintersmith-jade
+	url = git://github.com/smebberson/wintersmith-jade.git

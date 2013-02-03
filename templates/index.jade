@@ -1,0 +1,33 @@
+!!! 5
+html(lang='de')
+	head
+		meta(charset='utf-8')
+		meta(name='author', content='@ubuciko und @HorayNarea')
+		meta(name='description', content='Microsite mit Anmeldeformular und Twitter-Widget für Parteitage und Ähnliches - steht unter CC-BY-NC 3.0')
+
+		title=locals.title
+
+		link(rel='stylesheet', type='text/css', href='style.css')
+		link(rel='shortcut icon', href='logo.png')
+		link(rel='apple-touch-icon', href='logo.png')
+	body
+		div#wrapper
+			div#header
+				img(src='logo.png', class='logo', alt='Piratenpartei Logo')
+				h1 #avlsa &bull; #lptlsa
+				p Aufstellungsversammlung und Landesparteitag 2013.1 der Piratenpartei Sachsen-Anhalt
+			ul.nav
+				li
+					a(href='index.html') Hauptseite
+				li
+					a(href='tagesordnung.html') Tagesordnung
+				li
+					a(href='anfahrt.html') Anfahrt
+				li
+					a(href='verpflegung.html') Verpflegung &amp; Übernachtung
+				li
+					a(href='presse.html') Presse
+				li
+					a(href='impressum.html') Impressum &amp; Kontakt
+			div#content
+				!= page.html
