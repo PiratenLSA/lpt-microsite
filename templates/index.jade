@@ -10,6 +10,9 @@ html(lang='de')
 		link(rel='stylesheet', type='text/css', href='style.css')
 		link(rel='shortcut icon', href='logo.png')
 		link(rel='apple-touch-icon', href='logo.png')
+
+		link(rel='stylesheet', type='text/css', href='video-js/video-js.min.css')
+		script(type='text/javascript', src='video-js/video.min.js')
 	body
 		div#wrapper
 			div#header
@@ -17,17 +20,12 @@ html(lang='de')
 				h1 #avlsa &bull; #lptlsa
 				p Aufstellungsversammlung und Landesparteitag 2013.1 der Piratenpartei Sachsen-Anhalt
 			ul.nav
-				li
-					a(href='index.html') Hauptseite
-				li
-					a(href='tagesordnung.html') Tagesordnung
-				li
-					a(href='anfahrt.html') Anfahrt
-				li
-					a(href='verpflegung.html') Verpflegung &amp; Übernachtung
-				li
-					a(href='presse.html') Presse
-				li
-					a(href='impressum.html') Impressum &amp; Kontakt
+				li: a(href='index.html') Hauptseite
+				li: a(href='trailer.html') Trailer
+				li: a(href='tagesordnung.html') Tagesordnung
+				li: a(href='anfahrt.html') Anfahrt
+				li: a(href='verpflegung.html') Verpflegung &amp; Übernachtung
+				li: a(href='presse.html') Presse
+				li: a(href='impressum.html') Impressum
 			div#content
 				!= page.html
