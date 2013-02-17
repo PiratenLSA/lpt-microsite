@@ -7,23 +7,27 @@ html(lang='de')
 
 		title=locals.title
 
-		link(rel='stylesheet', type='text/css', href='style.css')
-		link(rel='shortcut icon', href='logo.png')
-		link(rel='apple-touch-icon', href='logo.png')
+		link(rel='stylesheet', type='text/css', href='css/style.css')
+		link(rel='shortcut icon', href='images/logo.png')
+		link(rel='apple-touch-icon', href='images/logo.png')
 
 		link(rel='stylesheet', type='text/css', href='video-js/video-js.min.css')
 		script(type='text/javascript', src='video-js/video.min.js')
+
+		script(type='text/javascript', src='js/jquery-1.7.2.min.js')
+		script(type='text/javascript', src='js/lightbox.js')
+		link(rel='stylesheet', type='text/css', href='css/lightbox.css')
 	body
 		div#wrapper
 			div#header
-				img(src='logo.png', class='logo', alt='Piratenpartei Logo')
+				img(src='images/logo.png', class='logo', alt='Piratenpartei Logo')
 				h1 #avlsa &bull; #lptlsa
 				p Aufstellungsversammlung und Landesparteitag 2013.1 der Piratenpartei Sachsen-Anhalt
 			ul.nav
 				li: a(href='index.html') Hauptseite
 				li: a(href='trailer.html') Trailer
 				li: a(href='tagesordnung.html') Tagesordnung
-				li: a(href='anfahrt.html') Anfahrt
+				li: a(href='anfahrt.html') Ort
 				li: a(href='verpflegung.html') Verpflegung &amp; Übernachtung
 				li: a(href='presse.html') Presse
 				li: a(href='impressum.html') Impressum
