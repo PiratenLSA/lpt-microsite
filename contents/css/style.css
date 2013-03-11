@@ -231,3 +231,15 @@ iframe.captcha {
   float: right;
   margin: 0 0 10px 10px;
 }
+
+table.ergebnisse td,
+table.ergebnisse th {
+  padding: 3px;
+  text-align: center;
+}
+
+table.ergebnisse td.kandidat {
+  text-align: left;
+  padding-right: 15px;
+}
+
