@@ -2,17 +2,14 @@
 html(lang='de')
 	head
 		meta(charset='utf-8')
-		meta(name='author', content='@ubuciko und @HorayNarea')
-		meta(name='description', content='Microsite mit Anmeldeformular und Twitter-Widget für Parteitage und Ähnliches - steht unter CC-BY-NC 3.0')
+		meta(name='author', content='@ubuciko, @HorayNarea, @ChristophLSA')
+		meta(name='description', content='Microsite für Parteitage und Ähnliches - steht unter CC-BY-NC 3.0')
 
 		title=locals.title
 
 		link(rel='stylesheet', type='text/css', href='css/style.css')
 		link(rel='shortcut icon', href='images/logo.png')
 		link(rel='apple-touch-icon', href='images/logo.png')
-
-		link(rel='stylesheet', type='text/css', href='video-js/video-js.min.css')
-		script(type='text/javascript', src='video-js/video.min.js')
 
 		script(type='text/javascript', src='js/jquery-1.7.2.min.js')
 		script(type='text/javascript', src='js/lightbox.js')
@@ -21,13 +18,12 @@ html(lang='de')
 		div#wrapper
 			div#header
 				img(src='images/logo.png', class='logo', alt='Piratenpartei Logo')
-				h1 #avlsa &bull; #lptlsa
-				p Aufstellungsversammlung und Landesparteitag 2013.1 der Piratenpartei Sachsen-Anhalt
+				h1 #lptlsa
+				p Landesparteitag 2013.2 der Piratenpartei Sachsen-Anhalt
 			ul.nav
 				li: a(href='index.html') Hauptseite
-				li: a(href='infos.html') Informationen
-				li: a(href='trailer.html') Trailer
-				li: a(href='tagesordnung.html') Tagesordnung
+				//li: a(href='infos.html') Informationen
+				//li: a(href='tagesordnung.html') Tagesordnung
 				li: a(href='anfahrt.html') Ort
 				li: a(href='verpflegung.html') Verpflegung
 				li: a(href='presse.html') Presse
