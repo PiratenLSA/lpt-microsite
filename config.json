@@ -1,6 +1,6 @@
 {
   "locals": {
-    "title": "Aufstellungsversammlung/Landesparteitag 2013.1 der Piratenpartei Sachsen-Anhalt"
+    "title": "Landesparteitag 2013.2 der Piratenpartei Sachsen-Anhalt"
   },
   "plugins": [
     "./wintersmith-jade/"
