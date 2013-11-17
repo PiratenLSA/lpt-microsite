@@ -1,6 +1,6 @@
 {
   "locals": {
-    "title": "Landesparteitag 2013.2 der Piratenpartei Sachsen-Anhalt"
+    "title": "Landesparteitag 2013.3 der Piratenpartei Sachsen-Anhalt"
   },
   "plugins": [
     "./wintersmith-jade/"
