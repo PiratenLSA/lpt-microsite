@@ -11,15 +11,8 @@ body {
 	background-image:     -ms-linear-gradient(top, #bbb, #ccc);
 	background-image:      -o-linear-gradient(top, #bbb, #ccc);
 	background-repeat: repeat-x;
-}
-
-#wrapper {
-	width: 650px;
-	margin: auto;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-	box-shadow: 0px 0px 10px #666;
-	border-radius: 3px;
+	margin: 0;
+	padding: 0;
 }
 
 #header {
@@ -28,8 +21,22 @@ body {
 	background:-moz-linear-gradient(0% 100% 90deg,#000, #222);
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#222), to(#000));
 	color: #ddd;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
+}
+
+@media screen and (min-width: 700px){
+    #wrapper {
+	    width: 650px;
+	    margin: auto;
+	    margin-top: 2.5%;
+	    margin-bottom: 2.5%;
+	    box-shadow: 0px 0px 10px #666;
+	    border-radius: 3px;
+    }
+
+    #header {
+        border-top-right-radius: 3px;
+	    border-top-left-radius: 3px;
+    }
 }
 
 img.logo {
@@ -126,6 +133,8 @@ p.extern a {
 	font-size: 11.5pt;
 	border-bottom: 3px solid #ccc;
 	border-radius: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
 }
 
 p.extern a:hover {
